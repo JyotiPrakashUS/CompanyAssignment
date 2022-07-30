@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.StepDefinitions.RunToDoMVCTest
+-------------------------------------------------------------------------------
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.544 sec

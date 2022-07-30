@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="76" failures="0" name="com.cucumber.StepDefinitions.RunToDoMVCTest" time="0.023" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Java &amp; Selenium\Assignment-Workplace\Singtel_assignment"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Java &amp; Selenium\Assignment-Workplace\Singtel_assignment"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\USER\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files (x86)\Git\cmd;C:\Users\USER\anaconda3;C:\Users\USER\anaconda3\Library\mingw-w64\bin;C:\Users\USER\anaconda3\Library\usr\bin;C:\Users\USER\anaconda3\Library\bin;C:\Users\USER\anaconda3\Scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;;."/>
+    <property name="maven.conf" value="E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\USER"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="user.name" value="USER"/>
+    <property name="java.class.path" value="E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.4"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="E:\Java&amp;Selenium\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: launch url for ToDoMVC" name="Given user navigates to url provided" time="0.003"/>
+  <testcase classname="Scenario: launch url for ToDoMVC" name="When user handles advanced button" time="0"/>
+  <testcase classname="Scenario: launch url for ToDoMVC" name="Then user is displayed Home screen" time="0"/>
+  <testcase classname="Scenario: launch url for ToDoMVC" name="Scenario: launch url for ToDoMVC" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="Given User is on ToDoMVC application Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="When User enter new ToDo item As &quot;Create a framework&quot; in Textbox and submit it" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="Then System Validate with Message As &quot;ToDo Item is added to the List&quot; list&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="| Create a framework | ToDo Item is added to the List |" time="0.001"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="Given User is on ToDoMVC application Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="When User choose &quot;Create a framework&quot; from list to mark it completed" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="Then Selected Item is marked as completed with Message As &quot;ToDo Item is marked completed successful&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="| Create a framework | ToDo Item is marked completed successful |" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="Given User is on ToDoMVC application Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="When User click on clear complete button for &quot;Create a framework&quot; from list" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="Then Completed Item is deleted with Message As &quot;ToDo Item is marked completed successful&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="| Create a framework | ToDo Item is marked completed successful |" time="0"/>
+  <testcase classname="Scenario: " name="Given User Open Browser" time="0"/>
+  <testcase classname="Scenario: " name="And Navigate to URL Domain" time="0"/>
+  <testcase classname="Scenario: " name="And User click on Advanced button" time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0.001"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="When User Enter ToDo item As &quot;Create a framework&quot; in Textbox and submit it" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="Then System Validate with Message As &quot;ToDo Item is added to the List&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is added to the List |" name="| Create a framework | ToDo Item is added to the List |" time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Item is added to the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Item is added to the List |" name="When User Enter ToDo item As &quot;List Down All the test cases from user Story&quot; in Textbox and submit it" time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Item is added to the List |" name="Then System Validate with Message As &quot;ToDo Item is added to the List&quot;" time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Item is added to the List |" name="| List Down All the test cases from user Story | ToDo Item is added to the List |" time="0.001"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Item is added to the List |" name="Given User is on ToDoMVC Home Page." time="0.001"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Item is added to the List |" name="When User Enter ToDo item As &quot;Create feature file for all TCs&quot; in Textbox and submit it" time="0.006"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Item is added to the List |" name="Then System Validate with Message As &quot;ToDo Item is added to the List&quot;" time="0.001"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Item is added to the List |" name="| Create feature file for all TCs | ToDo Item is added to the List |" time="0.003"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Item is added to the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Item is added to the List |" name="When User Enter ToDo item As &quot;Implement feature file with selenium script&quot; in Textbox and submit it" time="0"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Item is added to the List |" name="Then System Validate with Message As &quot;ToDo Item is added to the List&quot;" time="0.001"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Item is added to the List |" name="| Implement feature file with selenium script | ToDo Item is added to the List |" time="0.002"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="When User select &quot;Create a framework&quot; from list to mark it completed" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="Then Selected Item is marked completed with Message As &quot;ToDo Item is marked completed successful&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is marked completed successful |" name="| Create a framework | ToDo Item is marked completed successful |" time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Item is added to the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Item is added to the List |" name="When User Enter ToDo item As &quot;Executes all the TCs developed&quot; in Textbox and submit it" time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Item is added to the List |" name="Then System Validate with Message As &quot;ToDo Item is added to the List&quot;" time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Item is added to the List |" name="| Executes all the TCs developed | ToDo Item is added to the List |" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in completed List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in completed List |" name="When User Click on Completed filter" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in completed List |" name="Then System Validate Completed &quot;Create a framework&quot; with Message As &quot;ToDo Item is there in completed List&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in completed List |" name="| Create a framework | ToDo Item is there in completed List |" time="0.001"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Active Item is present in the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Active Item is present in the List |" name="When User Click on Active filter" time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Active Item is present in the List |" name="Then System Validate Active &quot;List Down All the test cases from user Story&quot; with Message As &quot;ToDo Active Item is present in the List&quot;" time="0"/>
+  <testcase classname="| List Down All the test cases from user Story | ToDo Active Item is present in the List |" name="| List Down All the test cases from user Story | ToDo Active Item is present in the List |" time="0.001"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Active Item is present in the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Active Item is present in the List |" name="When User Click on Active filter" time="0"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Active Item is present in the List |" name="Then System Validate Active &quot;Create feature file for all TCs&quot; with Message As &quot;ToDo Active Item is present in the List&quot;" time="0"/>
+  <testcase classname="| Create feature file for all TCs | ToDo Active Item is present in the List |" name="| Create feature file for all TCs | ToDo Active Item is present in the List |" time="0"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Active Item is present in the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Active Item is present in the List |" name="When User Click on Active filter" time="0"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Active Item is present in the List |" name="Then System Validate Active &quot;Implement feature file with selenium script&quot; with Message As &quot;ToDo Active Item is present in the List&quot;" time="0"/>
+  <testcase classname="| Implement feature file with selenium script | ToDo Active Item is present in the List |" name="| Implement feature file with selenium script | ToDo Active Item is present in the List |" time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Active Item is present in the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Active Item is present in the List |" name="When User Click on Active filter" time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Active Item is present in the List |" name="Then System Validate Active &quot;Executes all the TCs developed&quot; with Message As &quot;ToDo Active Item is present in the List&quot;" time="0"/>
+  <testcase classname="| Executes all the TCs developed | ToDo Active Item is present in the List |" name="| Executes all the TCs developed | ToDo Active Item is present in the List |" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in All List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in All List |" name="When User Click on All filter" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in All List |" name="Then System Validate All filter for &quot;Create a framework&quot; with Message As &quot;ToDo Item is there in All List&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is there in All List |" name="| Create a framework | ToDo Item is there in All List |" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is deleted from the List |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is deleted from the List |" name="When User select completed &quot;Create a framework&quot; from list to delete it" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is deleted from the List |" name="Then Selected Item is deleted with Message As &quot;ToDo Item is deleted from the List&quot;" time="0"/>
+  <testcase classname="| Create a framework | ToDo Item is deleted from the List |" name="| Create a framework | ToDo Item is deleted from the List |" time="0"/>
+  <testcase classname="| Executes all the TCs developed | in Cucumber | ToDo Item is edited successfully |" name="Given User is on ToDoMVC Home Page." time="0"/>
+  <testcase classname="| Executes all the TCs developed | in Cucumber | ToDo Item is edited successfully |" name="When User click on &quot;Executes all the TCs developed&quot; to edit it with &quot;in Cucumber&quot;" time="0"/>
+  <testcase classname="| Executes all the TCs developed | in Cucumber | ToDo Item is edited successfully |" name="Then System Validate after editing ToDO Item with Message As &quot;ToDo Item is edited successfully&quot;" time="0"/>
+  <testcase classname="| Executes all the TCs developed | in Cucumber | ToDo Item is edited successfully |" name="| Executes all the TCs developed | in Cucumber | ToDo Item is edited successfully |" time="0.001"/>
+</testsuite>
